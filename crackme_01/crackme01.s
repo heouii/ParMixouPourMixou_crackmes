@@ -1,10 +1,10 @@
 global _start
 
 section .data
-    msg_good db "Bien joué, C'est un bon debut pas vrai ?", 10
+    msg_good db "Good Job!", 10
     len_good equ $ - msg_good
 
-    msg_bad  db "Continue tu vas y arriver !", 10
+    msg_bad  db "Bad Password!", 10
     len_bad  equ $ - msg_bad
 
     mss db \
